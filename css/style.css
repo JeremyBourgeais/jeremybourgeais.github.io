@@ -82,6 +82,11 @@ ul {
     margin-bottom: 20px;
 }
 
+.formation:hover{
+    background-color: rgb(95, 95, 84);
+    color: white;
+}
+
 .experiences{
     border-radius: 10px;
     background-color: rgb(241, 241, 233);
@@ -89,6 +94,11 @@ ul {
     width: 50%;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.experiences:hover{
+    background-color: rgb(95, 95, 84);
+    color: white;
 }
 
 .partie_droite div.conteneur{
