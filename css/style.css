@@ -5,7 +5,8 @@ body {
     
 }
 
-/* ***********Partie droite*********** */
+
+/* ***********Partie gauche*********** */
 .partie_gauche{
     display: flex;
     align-items: center;
@@ -18,30 +19,41 @@ body {
     border: 2px solid sandybrown;
     margin-top: 8%;
     margin-bottom: 8%;
-    width: 40%;
-    height: 20%;
+    width: 160px;
+    height: 180px;
 }
 
-.partie_gauche div.conteneur{
+.partie_gauche h2{
+    margin-bottom: 2%;
+}
+
+.partie_gauche p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.partie_gauche ul{
+    list-style-type: none;
+}
+
+.partie_gauche div.conteneur_gauche{
     text-align: center;
     color: sandybrown;
     width: 100%;
     height: 100%;
 }
 
-.partie_gauche div.conteneur address{
+.partie_gauche div.conteneur_gauche address{
     line-height: 150%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    margin-top: 2%;
     
 }
 
-.partie_gauche div.conteneur a{
+.partie_gauche div.conteneur_gauche a{
     color: sandybrown;
 }
 
-.profil{
-    line-height: 150%;
-}
 .coordonnees{
     display: flex;
     flex-direction: column;
@@ -61,6 +73,7 @@ body {
     align-items: center;
     margin-left: 4%;
     margin-right: 4%;
+    line-height: 150%;
 }
 .profil h2{
     padding: 2%;
@@ -68,7 +81,11 @@ body {
     width: 60%;
 }
 
-/* ***********Partie gauche*********** */
+.profil ul{
+    padding-left: 0px;
+}
+
+/* ***********Partie droite*********** */
 
 .partie_droite{
     width: 80%;
@@ -82,19 +99,25 @@ a{
 }
 
 h2{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-section{
-    text-align: center;
+
+
+
+.presentation{
+    border-radius: 10px;
+    background-color: rgb(241, 241, 233);
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.349);
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
-ul {
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    
+.presentation:hover{
+    background-color: rgb(95, 95, 84);
+    color: white;
 }
 
 .formation{
@@ -104,11 +127,40 @@ ul {
     width: 50%;
     padding: 20px;
     margin-bottom: 20px;
+    line-height: 150%;
 }
 
 .formation:hover{
     background-color: rgb(95, 95, 84);
     color: white;
+}
+
+.formation ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.formation li {
+    font-size: medium;
+}
+
+.formation h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.formation h2{
+    text-align: center;
+}
+
+.formation em {
+    font-weight: 800;
 }
 
 .experiences{
@@ -125,38 +177,39 @@ ul {
     color: white;
 }
 
-.partie_droite div.conteneur{
+.experiences section{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.experiences h2{
+    text-align: center;
+}
+
+.experiences h3, h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.experiences ul{
+    margin-top: 0px;
+    font-size: small;
+}
+
+.partie_droite div.conteneur_droite{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-
-}
-
-.titre{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: end;
-    
 
 }
 
 .titre h1{
     border: 2px solid black;
-    width: 70%;
+    width: 30%;
     background-color: sandybrown;
-    padding: 2%;
+    padding: 1%;
 }
 
-.titre h2{
-    position: absolute;
-    top: 100px;
-    background-color: sandybrown;
-    padding-left: 1%;
-    padding-right: 1%;
-
-}
 
 .titre_style{
     display: flex;
@@ -164,7 +217,6 @@ ul {
     flex-direction: column;
     align-items: center;
     background-color: sandybrown;
-    width: 100%;
     margin-bottom: 2%;
     
 }
