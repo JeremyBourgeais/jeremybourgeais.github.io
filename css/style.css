@@ -102,6 +102,26 @@ h2{
     margin-top: 5px;
 }
 
+.CV_pdf{
+    text-align: center;
+    background-color: rgb(45, 101, 146);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: smaller;
+    word-spacing: -10px;
+    position: fixed;
+    left: 381px;
+    top:114px;
+    border-radius: 0px 3px 3px 0px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    
+
+}
+
+.CV_pdf a{
+    color: white;
+}
 
 
 
