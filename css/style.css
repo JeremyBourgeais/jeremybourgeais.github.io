@@ -293,8 +293,8 @@ h2{
         margin-left: 3%;
         margin-right: 3%;
     }
-    .conteneur_droite{
-        overflow-y: scroll;
+    .partie_droite{
+        overflow-y: auto;
     }
     .CV_pdf{
         width: 10px;
@@ -342,8 +342,8 @@ h2{
         margin-right: 3%;
     }
 
-    .conteneur_droite{
-        overflow-y: scroll;
+    .partie_droite{
+        overflow-y: auto;
     }
 
     .CV_pdf{
