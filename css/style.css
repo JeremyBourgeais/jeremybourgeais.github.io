@@ -1,3 +1,7 @@
+
+
+
+
 body {
     display: flex;
     
@@ -22,6 +26,9 @@ body {
     width: 160px;
     height: 180px;
 }
+
+
+
 
 .partie_gauche h2{
     margin-bottom: 2%;
@@ -110,8 +117,8 @@ h2{
     font-size: smaller;
     word-spacing: -10px;
     position: fixed;
-    left: 381px;
-    top:114px;
+    left: 20%;
+    top:19.6%;
     border-radius: 0px 3px 3px 0px;
     padding-left: 0.5%;
     padding-right: 0.5%;
@@ -183,6 +190,14 @@ h2{
     font-weight: 800;
 }
 
+.formation p{
+    margin: 0px;
+}
+
+.formation a{
+    font-weight: 800;
+}
+
 .experiences{
     border-radius: 10px;
     background-color: rgb(241, 241, 233);
@@ -240,3 +255,98 @@ h2{
     margin-bottom: 2%;
     
 }
+@media (801px<= width <= 1400px){
+    .partie_gauche{
+        font-size:11px;
+        width: 170px;
+    }
+
+    .partie_gauche img{
+        border: 2px solid sandybrown;
+        margin-top: 8%;
+        margin-bottom: 8%;
+        width: 120px;
+        height: 140px;
+    }
+
+    .coordonnees h2, .profil h2{
+        width: 70%;
+    }
+
+    .partie_droite h1{
+        font-size:30px;
+        width: 60%;
+    }
+    .formation ul {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .formation li{
+        font-size: 15px;
+    }
+    .presentation, .formation, .experiences{
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .partie_droite section{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .CV_pdf{
+        width: 10px;
+        font-size: 12px;
+        top: 19%;
+        left: 21%;
+    }
+}
+@media (300px<= width <= 800px){
+
+    .partie_gauche{
+        font-size:9px;
+        width: 150px;
+    }
+    .partie_gauche img{
+        border: 2px solid sandybrown;
+        margin-top: 8%;
+        margin-bottom: 8%;
+        width: 110px;
+        height: 130px;
+    }
+
+    .coordonnees h2, .profil h2{
+        width: 80%;
+    }
+
+    .partie_droite h1{
+        font-size:20px;
+        width: 70%;
+    }
+    .formation ul {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .formation li{
+        font-size: 10px;
+    }
+    .presentation, .formation, .experiences{
+        font-size: 10px;
+        width: 65%;
+    }
+
+    .partie_droite section{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .CV_pdf{
+        width: 10px;
+        font-size: 10px;
+        top: 17%;
+        left: 33%;
+    }
+
+}
+
+
+
