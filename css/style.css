@@ -293,6 +293,9 @@ h2{
         margin-left: 3%;
         margin-right: 3%;
     }
+    .conteneur_droite{
+        overflow-y: scroll;
+    }
     .CV_pdf{
         width: 10px;
         font-size: 12px;
@@ -337,6 +340,10 @@ h2{
     .partie_droite section{
         margin-left: 3%;
         margin-right: 3%;
+    }
+
+    .conteneur_droite{
+        overflow-y: scroll;
     }
 
     .CV_pdf{
